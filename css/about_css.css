@@ -4,12 +4,15 @@
   margin-left: 100;
   margin-right: 100;
 }
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 600px) {
     .about_container {
       margin-top:800;
-      margin-left: 50;
+      margin-left: 10;
+      margin-right: 0;
+
     }
 }
+
 .about_me_image
 {
   position: absolute;
@@ -22,6 +25,7 @@
       width:500px;
     }
 }
+
 .about_me_title
 {
   font-size: 50px;
@@ -32,7 +36,7 @@
 @media only screen and (max-width: 1200px) {
     .about_me_title {
       padding-left: 0;
-      font-size: 40px;
+      font-size: 30px;
       padding-top: 50;
 
     }
