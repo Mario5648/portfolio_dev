@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 800px) {
   .skills_container
   {
     margin-top:300;
@@ -76,7 +76,7 @@
   {
     font-size:80px;
     color:#cc0000;
-    padding: 50px 50px;
+    padding: 30px 30px;
     opacity: 0.7;
   }
   .icon_name_attributes
