@@ -1,53 +1,100 @@
-.skills_container
-{
-  margin-top:300;
-  padding-top: 70;
-  padding-bottom: 70;
+@media only screen and (min-width: 1200px) {
+  .skills_container
+  {
+    margin-top:300;
+    padding-top: 70;
+    padding-bottom: 70;
+    margin-left: 20;
+    margin-right: 20;
+  }
+  .skills_title
+  {
+    font-size: 50px;
+    font-weight: bold;
+    color:#000;
+  }
+
+  .skill_icon_attributes
+  {
+    font-size:100px;
+    color:#cc0000;
+    padding: 50px 50px;
+    opacity: 0.7;
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+  }
+  .icon_name_attributes
+  {
+    font-size:30px;
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+
+  }
+  .skill_icon_attributes:hover
+  {
+    border-style: solid;
+    border-color: rgba(0, 0, 0, .2);
+    border-radius: 20%;
+    top: -10px;
+  }
+  .icon_name_attributes:hover
+  {
+    top: -10px;
+  }
+
+  .icon_position
+  {
+
+  }
+  .next_to
+  {
+    display: inline-block;
+
+  }
 }
 
-.skills_title
-{
-  font-size: 50px;
-  font-weight: bold;
-  color:#000;
-}
 
-.skill_icon_attributes
-{
-  font-size:100px;
-  color:#cc0000;
-  padding: 50px 50px;
-  opacity: 0.7;
-  position: relative;
-  top: 0;
-  transition: top ease 0.5s;
-}
-.icon_name_attributes
-{
-  font-size:30px;
-  position: relative;
-  top: 0;
-  transition: top ease 0.5s;
+@media only screen and (max-width: 800px) {
+  .skills_container
+  {
+    margin-top:300;
+    padding-top: 70;
+    padding-bottom: 70;
+    margin-left: 10;
+    margin-right: 10;
+  }
+  .skills_title
+  {
+    font-size: 50px;
+    font-weight: bold;
+    color:#000;
+  }
 
-}
-.skill_icon_attributes:hover
-{
-  border-style: solid;
-  border-color: rgba(0, 0, 0, .2);
-  border-radius: 20%;
-  top: -10px;
-}
-.icon_name_attributes:hover
-{
-  top: -10px;
-}
+  .skill_icon_attributes
+  {
+    font-size:80px;
+    color:#cc0000;
+    padding: 50px 50px;
+    opacity: 0.7;
+  }
+  .icon_name_attributes
+  {
+    font-size:20px;
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
 
-.icon_position
-{
+  }
 
-}
-.next_to
-{
-  display: inline-block;
+  .icon_position
+  {
 
+  }
+  .next_to
+  {
+    display: inline-block;
+
+  }
 }
