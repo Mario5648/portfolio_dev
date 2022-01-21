@@ -1,0 +1,84 @@
+<html>
+  <title>Mario's Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./css/navigation.css">
+  <link rel="stylesheet" href="./css/sidebar.css">
+  <link rel="stylesheet" href="./css/hero_css.css">
+  <link rel="stylesheet" href="./css/about_css.css">
+
+  <!-- Navbar -->
+  <div class="w3-top">
+    <div class="w3-bar w3-white w3-card nav_elements_padding">
+      <a class=" w3-right nav_hamburger nav_hamburger_show" href="javascript:void(0)" onclick="openNav()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+      <img src="./images/mario_portfolio_logo.png" class="w3-bar-item logo"></img>
+      <a href="#contact" class="w3-right nav_text remove_underline nav_text_vertical_align nav_resume_option nav_text_show">Resume</a>
+      <a href="#contact" class="w3-right nav_text remove_underline nav_text_vertical_align nav_text_show">Contact</a>
+      <a href="#contact" class="w3-right nav_text remove_underline nav_text_vertical_align nav_text_show">Projects</a>
+      <a href="#contact" class="w3-right nav_text remove_underline nav_text_vertical_align nav_text_show">Experience</a>
+      <a href="#tour" class="w3-right nav_text remove_underline nav_text_vertical_align nav_text_show">Skills</a>
+      <a href="#band" class="w3-right nav_text remove_underline nav_text_vertical_align nav_text_show">About</a>
+      <a href="#" class="w3-right w3-hover nav_text remove_underline nav_text_vertical_align nav_text_show">Home</a>
+    </div>
+  </div>
+
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#" class="">Home</a>
+    <a href="#band" class="">About</a>
+    <a href="#tour" class="">Skills</a>
+    <a href="#contact" class="">Experience</a>
+    <a href="#contact" class="">Projects</a>
+    <a href="#contact" class="">Contact</a>
+    <a href="#contact" class="">Resume</a>
+  </div>
+
+<!--    <div class="w3-container">
+    <div class="hero_container_text">
+      <p class="greeting_text">Hi! I'm,
+        <br>
+        <span class="name_text">Mario De Jesus</span>
+        <br>
+        <span class="hero_description_text">I'm a <span class="hero_title_tag">Software Developer</span>, passionate about creating software to solve real world problems.</span>
+      </p>
+      <i class="fa fa-github professional_media_account_logo"></i>
+      <i class="fa fa-linkedin-square professional_media_account_logo"></i>
+      <div >
+      <img src="./images/terminal.gif"></img>
+
+    </div>-->
+
+  <body>
+    <!--hero section-->
+    <div class="w3-container hero_container">
+      <div class="w3-third hero_container_text">
+        <p class="greeting_text">Hi! I'm,
+          <br>
+          <span class="name_text">Mario De Jesus</span>
+          <br>
+          <span class="hero_description_text">I'm a <span class="hero_title_tag">Software Developer</span>, passionate about creating software to solve real world problems.</span>
+        </p>
+        <i class="fa fa-github professional_media_account_logo"></i>
+        <i class="fa fa-linkedin-square professional_media_account_logo"></i>
+      </div>
+      <div class="w3-third hero_image_container">
+        <img src="./images/terminal.gif"></img>
+      </div>
+    </div>
+
+    <!--About me section-->
+    <div class="w3-container about_container">
+        <div class="w3-col m4">
+          <div class="about_img_square"></div>
+          <img class="w3-image w3-round-large about_me_image" src="./images/mario.jpg" alt="mario" >
+        </div>
+        <div class="w3-col m8">
+          <p class="about_me_title">About Me</p>
+          <p class="about_me_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+    </div>
+    <script src="./js/navigation_bar.js"></script>
+  </body>
+</html>

@@ -1,0 +1,63 @@
+.about_container
+{
+  margin-top:500;
+  margin-left: 100;
+  margin-right: 100;
+}
+@media only screen and (max-width: 1200px) {
+    .about_container {
+      margin-top:800;
+      margin-left: 50;
+    }
+}
+.about_me_image
+{
+  position: absolute;
+  width: 300px;
+  margin-top: -250;
+  z-index: auto;
+}
+@media only screen and (min-width: 1700px) {
+    .about_me_image {
+      width:500px;
+    }
+}
+.about_me_title
+{
+  font-size: 50px;
+  font-weight: bold;
+  color:#cc0000;
+  padding-left: 40;
+}
+@media only screen and (max-width: 1200px) {
+    .about_me_title {
+      padding-left: 0;
+      font-size: 40px;
+      padding-top: 50;
+
+    }
+}
+.about_me_text
+{
+  font-size: 20px;
+  padding-left: 40;
+}
+@media only screen and (max-width: 1200px) {
+    .about_me_text {
+      padding-left: 0;
+    }
+}
+.about_img_square {
+  height: 300px;
+  width: 330px;
+  background-color: #cc0000;
+  opacity: 0.5;
+  margin-left: -30;
+}
+
+@media only screen and (max-width: 1200px) {
+    .about_img_square {
+      display:none;
+
+    }
+}
