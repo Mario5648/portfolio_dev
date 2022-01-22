@@ -1,0 +1,140 @@
+@media only screen and (min-width: 1500px)
+{
+  .experience_container
+  {
+    margin-top: 300;
+    margin-left: 100;
+    margin-right:100;
+  }
+  .experience_title
+  {
+    font-size: 50px;
+    font-weight:bold;
+  }
+  .card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
+
+  .ai4g_card_container
+  {
+    margin-top: 30;
+  }
+
+  .ee_card_container
+  {
+    margin-top: 57;
+  }
+
+  .pb_card_container
+  {
+    margin-top: 101;
+  }
+
+  .ai4good_logo_image
+  {
+    width:150px;
+    margin-top: 30;
+
+  }
+
+  .ee_logo_image
+  {
+    width:120px;
+    margin-top: 30;
+  }
+
+  .pb_logo_image
+  {
+    width:300px;
+    margin-top: 30;
+
+  }
+
+  .card_title
+  {
+    font-size: 20px;
+    font-weight: bold;
+  }
+}
+@media only screen and (max-width: 1700px)
+{
+  .experience_container
+  {
+    margin-top: 300;
+    margin-left: 50;
+    margin-right:50;
+  }
+  .experience_title
+  {
+    font-size: 30px;
+    font-weight:bold;
+  }
+  .card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
+
+  .ai4g_card_container
+  {
+    margin-top: 30;
+  }
+
+  .ee_card_container
+  {
+    margin-top: 57;
+  }
+
+  .pb_card_container
+  {
+    margin-top: 101;
+  }
+
+  .ai4good_logo_image
+  {
+    width:150px;
+    margin-top: 30;
+
+  }
+
+  .ee_logo_image
+  {
+    width:120px;
+    margin-top: 30;
+  }
+
+  .pb_logo_image
+  {
+    width:300px;
+    margin-top: 30;
+
+  }
+
+  .card_title
+  {
+    font-size: 15px;
+    font-weight: bold;
+  }
+}
