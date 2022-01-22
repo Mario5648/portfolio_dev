@@ -13,35 +13,37 @@
   <link rel="stylesheet" href="./css/pattern_css.css">
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
 
-  <!-- Navbar -->
-  <div class="w3-top">
-    <div class="w3-bar w3-white w3-card nav_elements_padding">
-      <a class=" w3-right nav_hamburger nav_hamburger_show" href="javascript:void(0)" onclick="openNav()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-      <img src="./images/mario_portfolio_logo.png" class="w3-bar-item logo"></img>
-      <a href="#contact" class="w3-right nav_text remove_underline nav_text_vertical_align nav_resume_option nav_text_show">Resume</a>
-      <a href="#contact" class="w3-right nav_text remove_underline nav_text_vertical_align nav_text_show">Contact</a>
-      <a href="#contact" class="w3-right nav_text remove_underline nav_text_vertical_align nav_text_show">Projects</a>
-      <a href="#contact" class="w3-right nav_text remove_underline nav_text_vertical_align nav_text_show">Experience</a>
-      <a href="#tour" class="w3-right nav_text remove_underline nav_text_vertical_align nav_text_show">Skills</a>
-      <a href="#band" class="w3-right nav_text remove_underline nav_text_vertical_align nav_text_show">About</a>
-      <a href="#" class="w3-right w3-hover nav_text remove_underline nav_text_vertical_align nav_text_show">Home</a>
+
+
+
+  <body class="web_text">
+    <!-- Navbar -->
+    <div class="w3-top">
+      <div class="w3-bar w3-white w3-card nav_elements_padding">
+        <a class=" w3-right nav_hamburger nav_hamburger_show" href="javascript:void(0)" onclick="openNav()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+        <img src="./images/mario_portfolio_logo.png" class="w3-bar-item logo"></img>
+        <a href="#contact" class="w3-right nav_text remove_underline nav_text_vertical_align nav_resume_option nav_text_show">Resume</a>
+        <a href="#contact" class="w3-right nav_text remove_underline nav_text_vertical_align nav_text_show">Contact</a>
+        <a href="#contact" class="w3-right nav_text remove_underline nav_text_vertical_align nav_text_show">Projects</a>
+        <a href="#contact" class="w3-right nav_text remove_underline nav_text_vertical_align nav_text_show">Experience</a>
+        <a href="#tour" class="w3-right nav_text remove_underline nav_text_vertical_align nav_text_show">Skills</a>
+        <a href="#band" class="w3-right nav_text remove_underline nav_text_vertical_align nav_text_show">About</a>
+        <a href="#" class="w3-right w3-hover nav_text remove_underline nav_text_vertical_align nav_text_show">Home</a>
+      </div>
     </div>
-  </div>
 
-  <div id="mySidenav" class="sidenav">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <a href="#" class="">Home</a>
-    <a href="#band" class="">About</a>
-    <a href="#tour" class="">Skills</a>
-    <a href="#contact" class="">Experience</a>
-    <a href="#contact" class="">Projects</a>
-    <a href="#contact" class="">Contact</a>
-    <a href="#contact" class="">Resume</a>
-  </div>
-
-
-  <body>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="#" class="">Home</a>
+      <a href="#band" class="">About</a>
+      <a href="#tour" class="">Skills</a>
+      <a href="#contact" class="">Experience</a>
+      <a href="#contact" class="">Projects</a>
+      <a href="#contact" class="">Contact</a>
+      <a href="#contact" class="">Resume</a>
+    </div>
     <img src="./images/circle_pattern_large.png" class="circle2"></img>
     <div class="triangle-left"></div>
 
@@ -75,20 +77,67 @@
     </div>
 
     <!--Skills section-->
-    <div class="w3-container w3-row w3-center skills_container">
+    <!-- LAnguage Icone : https://devicon.dev/-->
+    <div class="w3-container w3-row skills_container">
       <p class="skills_title">Skills</p>
-      <div class="icon_position">
-        <div class = "next_to"><p class="icon_name_attributes"><i class="devicon-azure-plain skill_icon_attributes"></i><br>Azure</p></div>
-        <div class = "next_to"><p class="icon_name_attributes"><i class="devicon-python-plain skill_icon_attributes"></i><br>Python</p></div>
-        <div class = "next_to"><p class="icon_name_attributes"><i class="devicon-java-plain skill_icon_attributes"></i><br>Java</p></div>
-        <div class = "next_to"><p class="icon_name_attributes"><i class="devicon-javascript-plain skill_icon_attributes"></i><br>Javascript</p></div>
-        <div class = "next_to"><p class="icon_name_attributes"><i class="devicon-docker-plain skill_icon_attributes"></i><br>Docker</p></div>
-        <div class = "next_to"><p class="icon_name_attributes"><i class="devicon-c-plain skill_icon_attributes"></i><br>C</p></div>
-        <div class = "next_to"><p class="icon_name_attributes"><i class="devicon-html5-plain skill_icon_attributes"></i><br>HTML</p></div>
-        <div class = "next_to"><p class="icon_name_attributes"><i class="devicon-css3-plain skill_icon_attributes"></i><br>CSS</p></div>
-        <div class = "next_to"><p class="icon_name_attributes"><i class="devicon-php-plain skill_icon_attributes"></i><br>PHP</p></div>
-        <div class = "next_to"><p class="icon_name_attributes"><i class="devicon-git-plain skill_icon_attributes"></i><br>Git</p></div>
-        <div class = "next_to"><p class="icon_name_attributes"><i class="devicon-mysql-plain skill_icon_attributes"></i><br>mySQL</p></div>
+      <div class="w3-row-padding">
+        <div class="w3-third_skills">
+          <div class="card_skills">
+            <center><img src="./images/swe_icon.png" alt="software engineering" class="skill_icon_image"></center>
+            <div class="container_skills">
+              <center><p class="skill_title">Software Engineering</p></center>
+              <hr>
+              <p class="about_me_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+              <div class="w3-center">
+                <div class="next_to"><p><i class="devicon-python-plain skill_icon_attributes"></i><br>Python</p></div>
+                <div class="next_to"><p><i class="devicon-java-plain skill_icon_attributes"></i><br>Java</p></div>
+                <div class="next_to"><p><i class="devicon-c-plain skill_icon_attributes"></i><br>C</p></div>
+                <div class="next_to"><p><i class="devicon-mysql-plain skill_icon_attributes"></i><br>mySQL</p></div>
+                <div class="next_to"><p><i class="devicon-git-plain skill_icon_attributes"></i><br>Git</p></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="w3-third_skills">
+          <div class="card_skills">
+            <center><img src="./images/webdev_icon.png" alt="web developer" class="skill_icon_image"></center>
+            <div class="container_skills">
+              <center><p class="skill_title">Web Development</p></center>
+              <hr>
+              <p class="about_me_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+              <div class="w3-center">
+                <div class="next_to"><p><i class="devicon-html5-plain skill_icon_attributes"></i><br>HTML</p></div>
+                <div class="next_to"><p><i class="devicon-css3-plain skill_icon_attributes"></i><br>CSS</p></div>
+                <div class="next_to"><p><i class="devicon-javascript-plain skill_icon_attributes"></i><br>JS</p></div>
+                <div class="next_to"><p><i class="devicon-mysql-plain skill_icon_attributes"></i><br>mySQL</p></div>
+                <div class="next_to"><p><i class="devicon-docker-plain skill_icon_attributes"></i><br>Docker</p></div>
+                <div class="next_to"><p><i class="devicon-php-plain skill_icon_attributes"></i><br>PHP</p></div>
+                <div class="next_to"><p><i class="devicon-python-plain skill_icon_attributes"></i><br>Python</p></div>
+                <div class="next_to"><p><i class="devicon-flask-original skill_icon_attributes"></i><br>Flask</p></div>
+                <div class="next_to"><p><i class="devicon-azure-plain skill_icon_attributes"></i><br>Azure</p></div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="w3-third_skills">
+          <div class="card_skills">
+            <center><img src="./images/ds_icon.png" alt="data science" class="skill_icon_image"></center>
+            <div class="container_skills">
+              <center><p class="skill_title">Data Science</p></center>
+              <hr>
+              <p class="about_me_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+              <div class="w3-center">
+                <div class="next_to"><p><i class="devicon-python-plain skill_icon_attributes"></i><br>Python</p></div>
+                <div class="next_to"><p><i class="devicon-mysql-plain skill_icon_attributes"></i><br>mySQL</p></div>
+                <div class="next_to"><p><i class="devicon-pandas-plain skill_icon_attributes"></i><br>pandas</p></div>
+                <div class="next_to"><p><i class="devicon-tensorflow-original skill_icon_attributes"></i><br>TensorFlow</p></div>
+                <div class="next_to"><p><i class="devicon-numpy-plain skill_icon_attributes"></i><br>NumPy</p></div>
+
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
