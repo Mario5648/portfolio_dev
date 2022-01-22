@@ -1,160 +1,86 @@
-@media only screen and (min-width: 1600px)
+@media only screen and (min-width: 1200px)
 {
   .experience_container
   {
     margin-top: 300;
-    margin-left: 100;
-    margin-right:100;
+    margin-left: 200;
+    margin-right:200;
   }
   .experience_title
   {
     font-size: 50px;
     font-weight:bold;
   }
-  .card {
-    /* Add shadows to create the "card" effect */
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-  }
 
-  /* On mouse-over, add a deeper shadow */
-  .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  .vertical_line_experience {
+    border-left: 6px solid #cc0000;
+    height: 1050px;
+    position:absolute;
+    left: 20%;
   }
-
-  /* Add some padding inside the card container */
-  .container {
-    padding: 2px 16px;
-  }
-
-  .ai4g_card_container
+  .experience_job_container
   {
-    margin-top: 30;
+    padding-left:30;
+    padding-right:100;
+    padding-top: 50;
   }
-
-  .ee_card_container
-  {
-    margin-top: 57;
-  }
-  .mitre_card_container
-  {
-    margin-top: 94;
-  }
-  .pb_card_container
-  {
-    margin-top: 101;
-  }
-
-  .ai4good_logo_image
+  .experience_image
   {
     width:150px;
-    margin-top: 30;
-
   }
-
-  .ee_logo_image
-  {
-    width:120px;
-    margin-top: 30;
-  }
-  .mitre_logo_image
-  {
-    width:300px;
-    margin-top: 30;
-  }
-  .pb_logo_image
-  {
-    width:300px;
-    margin-top: 30;
-
-  }
-
-  .card_title
+  .experience_job_title
   {
     font-size: 20px;
     font-weight: bold;
-    color:#21B6B6;
+  }
+  .experience_job_description
+  {
+    font-size: 15px;
+    color:grey;
   }
 }
-@media only screen and (max-width: 1860px)
-{
+
+@media only screen and (max-width: 1600px) {
   .experience_container
   {
     margin-top: 300;
-    margin-left: 50;
-    margin-right:50;
+    margin-left: 150;
+    margin-right:150;
   }
   .experience_title
   {
     font-size: 50px;
     font-weight:bold;
   }
-  .card {
-    /* Add shadows to create the "card" effect */
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-  }
 
-  /* On mouse-over, add a deeper shadow */
-  .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  .vertical_line_experience {
+    border-left: 6px solid #cc0000;
+    height: 1050px;
+    position:absolute;
   }
-
-  /* Add some padding inside the card container */
-  .container {
-    padding: 2px 16px;
-  }
-
-  .ai4g_card_container
+  .experience_job_container
   {
-    margin-top: 52;
+    padding-left:30;
+    padding-right:100;
+    padding-top: 50;
   }
-
-  .ee_card_container
-  {
-    margin-top: 80;
-  }
-  .mitre_card_container
-  {
-    margin-top: 145;
-  }
-  .pb_card_container
-  {
-    margin-top: 150;
-  }
-
-  .ai4good_logo_image
+  .experience_image
   {
     width:150px;
-    margin-top: 30;
-
   }
-
-  .ee_logo_image
+  .experience_job_title
   {
-    width:120px;
-    margin-top: 30;
-  }
-  .mitre_logo_image
-  {
-    width:200px;
-    margin-top: 30;
-  }
-  .pb_logo_image
-  {
-    width:200px;
-    margin-top: 30;
-
-  }
-
-  .card_title
-  {
-    font-size: 13px;
+    font-size: 20px;
     font-weight: bold;
   }
+  .experience_job_description
+  {
+    font-size: 15px;
+    color:grey;
+  }
 }
-@media only screen and (max-width: 1300px)
-{
+
+@media only screen and (max-width: 800px) {
   .experience_container
   {
     margin-top: 300;
@@ -166,71 +92,30 @@
     font-size: 50px;
     font-weight:bold;
   }
-  .card {
-    /* Add shadows to create the "card" effect */
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-  }
 
-  /* On mouse-over, add a deeper shadow */
-  .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  .vertical_line_experience {
+    border-left: 6px solid #cc0000;
+    height: 1350px;
+    position:absolute;
   }
-
-  /* Add some padding inside the card container */
-  .container {
-    padding: 2px 16px;
-  }
-
-  .ai4g_card_container
+  .experience_job_container
   {
-    margin-top: 30;
+    padding-left:30;
+    padding-right:100;
+    padding-top: 50;
   }
-
-  .ee_card_container
+  .experience_image
   {
-    margin-top: 57;
+    width:150px;
   }
-  .mitre_card_container
+  .experience_job_title
   {
-    margin-top: 94;
-  }
-  .pb_card_container
-  {
-    margin-top: 101;
-  }
-
-  .ai4good_logo_image
-  {
-    width:100px;
-    margin-top: 30;
-
-  }
-
-  .ee_logo_image
-  {
-    width:80px;
-    margin-top: 30;
-  }
-
-  .mitre_logo_image
-  {
-    width:200px;
-    margin-top: 30;
-  }
-  .pb_logo_image
-  {
-    width:200px;
-    margin-top: 30;
-
-  }
-  .w3-quarter {
-    width: 100%;
-  }
-  .card_title
-  {
-    font-size: 15px;
+    font-size: 20px;
     font-weight: bold;
   }
-}
+  .experience_job_description
+  {
+    font-size: 15px;
+    color:grey;
+  }
 }
