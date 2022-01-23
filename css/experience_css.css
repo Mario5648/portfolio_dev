@@ -15,8 +15,7 @@
   .vertical_line_experience {
     border-left: 6px solid #cc0000;
     height: 1050px;
-    position:absolute;
-    left: 20%;
+    margin-left: 100;
   }
   .experience_job_container
   {
@@ -56,7 +55,6 @@
   .vertical_line_experience {
     border-left: 6px solid #cc0000;
     height: 1050px;
-    position:absolute;
   }
   .experience_job_container
   {
@@ -96,7 +94,6 @@
   .vertical_line_experience {
     border-left: 6px solid #cc0000;
     height: 1350px;
-    position:absolute;
   }
   .experience_job_container
   {

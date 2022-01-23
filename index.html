@@ -11,16 +11,16 @@
   <link rel="stylesheet" href="./css/skills_css.css">
   <link rel="stylesheet" href="./css/experience_css.css">
   <link rel="stylesheet" href="./css/pattern_css.css">
+  <link rel="stylesheet" href="./css/projects_css.css">
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
   <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
 
 
 
-
   <body class="web_text">
     <!-- Navbar -->
-    <div class="w3-top">
+    <div class="w3-top" style="z-index: 20;">
       <div class="w3-bar w3-white w3-card nav_elements_padding">
         <a class=" w3-right nav_hamburger nav_hamburger_show" href="javascript:void(0)" onclick="openNav()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
         <img src="./images/mario_portfolio_logo.png" class="w3-bar-item logo"></img>
@@ -34,7 +34,7 @@
       </div>
     </div>
 
-    <div id="mySidenav" class="sidenav">
+    <div id="mySidenav" class="sidenav" style="z-index: 20;">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
       <a href="#" class="">Home</a>
       <a href="#band" class="">About</a>
@@ -50,6 +50,13 @@
 
     <!--hero section-->
     <div class="w3-container hero_container">
+      <div class="background">
+         <div class="cube"></div>
+         <div class="cube"></div>
+         <div class="cube"></div>
+         <div class="cube"></div>
+        <div class="cube"></div>
+      </div>
       <div class="w3-third hero_container_text">
         <p class="greeting_text">Hi! I'm,
           <br>
@@ -69,7 +76,7 @@
     <div class="w3-container about_container">
       <div class="w3-col m4">
         <div class="about_img_square"></div>
-        <img class="w3-image w3-round-large about_me_image" src="./images/mario.jpg" alt="mario" >
+        <img class="w3-image w3-round-large about_me_image" src="./images/mario.jpg" alt="mario" />
       </div>
       <div class="w3-col m8">
         <p class="about_me_title">About Me</p>
@@ -81,6 +88,71 @@
     <!-- LAnguage Icone : https://devicon.dev/-->
     <div class="w3-container w3-row skills_container">
       <p class="skills_title">Skills</p>
+
+      <div class="slider">
+      	<div class="slide-track">
+          <div class="slide">
+            <img src="./images/white.jpg" height="90" width="100"/>
+          </div>
+          <div class="slide">
+            <img src="./images/white.jpg" height="90" width="100"/>
+          </div>
+      		<div class="slide">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="90" width="100"/>
+      		</div>
+      		<div class="slide">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" height="90" width="100"/>
+      		</div>
+      		<div class="slide">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="90" width="100"/>
+      		</div>
+      		<div class="slide">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="90" width="100"/>
+      		</div>
+      		<div class="slide">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain.svg" height="100" width="100"/>
+      		</div>
+      		<div class="slide">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" height="90" width="100"/>
+      		</div>
+      		<div class="slide">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="90" width="100"/>
+      		</div>
+      		<div class="slide">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="90" width="100"/>
+      		</div>
+      		<div class="slide">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg" height="100" width="100"/>
+      		</div>
+      		<div class="slide">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="90" width="100"/>
+      		</div>
+      		<div class="slide">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="90" width="100"/>
+      		</div>
+      		<div class="slide">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" height="90" width="100"/>
+      		</div>
+      		<div class="slide">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" height="90" width="100"/>
+      		</div>
+      		<div class="slide">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" height="90" width="100"/>
+      		</div>
+          <div class="slide">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" height="90" width="100"/>
+          </div>
+          <div class="slide">
+            <img src="./images/white.jpg" height="90" width="100"/>
+          </div>
+          <div class="slide">
+            <img src="./images/white.jpg" height="90" width="100"/>
+          </div>
+      	</div>
+      </div>
+
+
+
       <div class="w3-row-padding">
         <div class="w3-third_skills">
           <div class="card_skills">
@@ -89,13 +161,6 @@
               <center><p class="skill_title">Software Engineering</p></center>
               <hr>
               <p class="skills_description_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-              <div class="w3-center">
-                <div class="next_to"><p><i class="devicon-python-plain skill_icon_attributes"></i><br>Python</p></div>
-                <div class="next_to"><p><i class="devicon-java-plain skill_icon_attributes"></i><br>Java</p></div>
-                <div class="next_to"><p><i class="devicon-c-plain skill_icon_attributes"></i><br>C</p></div>
-                <div class="next_to"><p><i class="devicon-mysql-plain skill_icon_attributes"></i><br>mySQL</p></div>
-                <div class="next_to"><p><i class="devicon-git-plain skill_icon_attributes"></i><br>Git</p></div>
-              </div>
             </div>
           </div>
         </div>
@@ -106,18 +171,6 @@
               <center><p class="skill_title">Web Development</p></center>
               <hr>
               <p class="skills_description_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-              <div class="w3-center">
-                <div class="next_to"><p><i class="devicon-html5-plain skill_icon_attributes"></i><br>HTML</p></div>
-                <div class="next_to"><p><i class="devicon-css3-plain skill_icon_attributes"></i><br>CSS</p></div>
-                <div class="next_to"><p><i class="devicon-javascript-plain skill_icon_attributes"></i><br>JS</p></div>
-                <div class="next_to"><p><i class="devicon-mysql-plain skill_icon_attributes"></i><br>mySQL</p></div>
-                <div class="next_to"><p><i class="devicon-docker-plain skill_icon_attributes"></i><br>Docker</p></div>
-                <div class="next_to"><p><i class="devicon-php-plain skill_icon_attributes"></i><br>PHP</p></div>
-                <div class="next_to"><p><i class="devicon-python-plain skill_icon_attributes"></i><br>Python</p></div>
-                <div class="next_to"><p><i class="devicon-flask-original skill_icon_attributes"></i><br>Flask</p></div>
-                <div class="next_to"><p><i class="devicon-azure-plain skill_icon_attributes"></i><br>Azure</p></div>
-
-              </div>
             </div>
           </div>
         </div>
@@ -128,14 +181,6 @@
               <center><p class="skill_title">Data Science</p></center>
               <hr>
               <p class="skills_description_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-              <div class="w3-center">
-                <div class="next_to"><p><i class="devicon-python-plain skill_icon_attributes"></i><br>Python</p></div>
-                <div class="next_to"><p><i class="devicon-mysql-plain skill_icon_attributes"></i><br>mySQL</p></div>
-                <div class="next_to"><p><i class="devicon-pandas-plain skill_icon_attributes"></i><br>pandas</p></div>
-                <div class="next_to"><p><i class="devicon-tensorflow-original skill_icon_attributes"></i><br>TensorFlow</p></div>
-                <div class="next_to"><p><i class="devicon-numpy-plain skill_icon_attributes"></i><br>NumPy</p></div>
-
-              </div>
             </div>
           </div>
         </div>
@@ -168,10 +213,71 @@
           <img src="./images/mitre_logo.png" class="experience_image"></img>
           <p class="experience_job_title">Software Engineer Intern</p>
           <p class="experience_job_description"> - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-        </div
+        </div>
       </div>
     </div>
 
+    <div class="projects_contianer">
+      <p class="projects_title">Projects</p>
+      <div class="project_row">
+        <div class="project_half project_description_container">
+          <p class="project_title">DevNote</p>
+            <div class="project_tech_next_to"><p class="project_tech_icon_attributes w3-center"><i class="devicon-python-plain"></i><br>Python</p></div>
+            <div class="project_tech_next_to"><p class="project_tech_icon_attributes w3-center"><i class="devicon-html5-plain"></i><br>HTML</p></div>
+            <div class="project_tech_next_to"><p class="project_tech_icon_attributes w3-center"><i class="devicon-css3-plain"></i><br>CSS</p></div>
+            <div class="project_tech_next_to"><p class="project_tech_icon_attributes w3-center"><i class="devicon-javascript-plain"></i><br>Javascript</p></div>
+            <div class="project_tech_next_to"><p class="project_tech_icon_attributes w3-center"><i class="devicon-docker-plain"></i><br>Docker</p></div>
+            <div class="project_tech_next_to"><p class="project_tech_icon_attributes w3-center"><i class="devicon-azure-plain"></i><br>Azure</p></div>
+            <div class="project_tech_next_to"><p class="project_tech_icon_attributes w3-center"><i class="devicon-mysql-plain"></i><br>mySQL</p></div>
+            <p class="project_description_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+            <a class="project_buttons">Demo</a>
+            <a class="project_buttons">Write Up</a>
+            <a class="project_buttons">Code</a>
+        </div>
+        <div class="project_half">
+          <img src="./images/devnote_project.png" class="project_image"></img>
+        </div>
+      </div>
+      <hr>
+      <div class="project_row">
+        <div class="project_half project_description_container">
+          <p class="project_title">V Hotels</p>
+            <div class="project_tech_next_to"><p class="project_tech_icon_attributes w3-center"><i class="devicon-python-plain"></i><br>Python</p></div>
+            <div class="project_tech_next_to"><p class="project_tech_icon_attributes w3-center"><i class="devicon-html5-plain"></i><br>HTML</p></div>
+            <div class="project_tech_next_to"><p class="project_tech_icon_attributes w3-center"><i class="devicon-css3-plain"></i><br>CSS</p></div>
+            <div class="project_tech_next_to"><p class="project_tech_icon_attributes w3-center"><i class="devicon-javascript-plain"></i><br>Javascript</p></div>
+            <div class="project_tech_next_to"><p class="project_tech_icon_attributes w3-center"><i class="devicon-docker-plain"></i><br>Docker</p></div>
+            <div class="project_tech_next_to"><p class="project_tech_icon_attributes w3-center"><i class="devicon-bootstrap-plain"></i><br>Bootstrap</p></div>
+            <div class="project_tech_next_to"><p class="project_tech_icon_attributes w3-center"><i class="devicon-mysql-plain"></i><br>mySQL</p></div>
+            <p class="project_description_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+            <a class="project_buttons">Write Up</a>
+            <a class="project_buttons">Code</a>
+        </div>
+        <div class="project_half">
+          <center><img src="./images/hotel_webapp.png" class="project_image"></img></center>
+        </div>
+      </div>
+      <hr>
+      <div class="project_row">
+        <div class="project_half project_description_container">
+          <p class="project_title">ZoneIn <img src="./images/medal.png" class="medal_icon"/></p>
+            <div class="project_tech_next_to"><p class="project_tech_icon_attributes w3-center"><i class="devicon-python-plain"></i><br>Python</p></div>
+            <div class="project_tech_next_to"><p class="project_tech_icon_attributes w3-center"><i class="devicon-java-plain"></i><br>Java</p></div>
+            <div class="project_tech_next_to"><p class="project_tech_icon_attributes w3-center"><i class="devicon-javascript-plain"></i><br>Javascript</p></div>
+            <p class="project_description_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+            <a class="project_buttons">Write Up</a>
+            <a class="project_buttons">Code</a>
+        </div>
+        <div class="project_half">
+          <center><img src="./images/zonein_project.png" class="project_image_zonein"></img></center>
+        </div>
+      </div>
+    </div>
+
+
+
     <script src="./js/navigation_bar.js"></script>
+    <script src="./js/ball_animation.js"></script>
+
   </body>
 </html>
