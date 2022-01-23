@@ -1,4 +1,4 @@
-@media only screen and (max-width: 2000px) {
+@media only screen and (min-width: 1300px) {
   .projects_contianer
   {
     margin-top: 300;
@@ -32,6 +32,15 @@
     display: inline-block;
   }
 
+  .project_row
+  {
+    display:flex;
+  }
+  .project_half
+  {
+    flex:50%;
+  }
+
   .project_image
   {
     width: 100%;
@@ -39,7 +48,7 @@
   }
   .project_image_zonein
   {
-    height:70%;
+    height:50%;
     margin-top: 50;
 
   }
@@ -70,7 +79,7 @@
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1300px) {
     .projects_contianer
     {
       margin-top: 300;
@@ -107,10 +116,12 @@
     .project_image
     {
       width: 100%;
+      margin-top: 50;
     }
     .project_image_zonein
     {
       height:70%;
+      margin-top: 50;
     }
     .project_description_text
     {
