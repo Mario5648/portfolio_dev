@@ -58,6 +58,13 @@
     color:#000;
   }
 
+	.skills_line
+	{
+		font-size: 50px;
+		font-weight: thin;
+		color:#000;
+	}
+
   .skills_description_text
   {
     font-size: 20px;
