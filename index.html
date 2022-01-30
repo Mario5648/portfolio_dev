@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="./css/projects_css.css">
   <link rel="stylesheet" href="./css/footer_css.css">
   <link rel="stylesheet" href="./css/text_animations.css">
+  <link rel="stylesheet" href="./css/test.css">
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
   <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
@@ -95,7 +96,7 @@
     <!--Skills section-->
     <!-- LAnguage Icone : https://devicon.dev/-->
     <div class="w3-container w3-row skills_container">
-      <p class="skills_title"><i class="		fa fa-square-o" style="color:#cc0000;font-size:50px;"></i> Skills <p style="font-size: 10;font-weight:thin;color:grey;">—————————</p></p>
+      <p class="skills_title"><i class="fa fa-square-o" style="color:#cc0000;font-size:50px;"></i> Skills</p>
 
       <div class="slider">
       	<div class="slide-track">
@@ -197,37 +198,28 @@
 
 
     <div class="w3-container experience_container">
-      <p class="experience_title"><i class="		fa fa-square-o" style="color:#cc0000;font-size:50px;"></i> Experience <p style="font-size: 10;font-weight:thin;color:grey;">—————————</p></p>
-      <div class="w3-half">
-        <div class="experience_job_container">
-          <img src="./images/ai4good_logo.jpg" class="experience_image" style="height:100px;"></img>
-          <p class="experience_job_title">ML Researcher/Web Developer <p style="color:#cc0000;font-weight:400;">@AI for good</p></p>
-          <p class="experience_job_description"><i class="fa fa-angle-double-right" style="color:#cc0000;font-size:20px;"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+      <p class="experience_title"><i class="fa fa-square-o" style="color:#cc0000;font-size:50px;"></i> Experience</p>
+      <div class="experience_items_container">
+        <div class="btn-group w3-quarter">
+          <button id="ai4good_button" onclick="change_experience_content('ai_4_good')" style="background-color:rgba(204,0,0,0.4);">AI for Good</button>
+          <button id="easyexpunctions_button"onclick="change_experience_content('easyexpunctions')">Easy Expunctions</button>
+          <button id="pwrdby_button" onclick="change_experience_content('pwrdby')">PwrdBy</button>
+          <button id="mitre_button" onclick="change_experience_content('mitre')">MITRE</button>
         </div>
-        <hr>
-        <div class="experience_job_container">
-          <img src="./images/mitre_logo.png" class="experience_image"></img>
-          <p class="experience_job_title">Software Engineer Intern <p style="color:#cc0000;font-weight:400;">@MITRE</p></p>
-          <p class="experience_job_description"><i class="fa fa-angle-double-right" style="color:#cc0000;font-size:20px;"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-        </div>
-      </div>
-      <div class="w3-half">
-        <div class="experience_job_container">
-          <img src="./images/ee_logo.jpg" class="experience_image" style="width:100px;height:100px;"></img>
-          <p class="experience_job_title">Software Engineer Intern <p style="color:#cc0000;font-weight:400;">@Easy Expunction</p></p>
-          <p class="experience_job_description"><i class="fa fa-angle-double-right" style="color:#cc0000;font-size:20px;"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-        </div>
-        <hr>
-        <div class="experience_job_container">
-          <img src="./images/pwrdby_logo.png" class="experience_image"></img>
-          <p class="experience_job_title">Data Science Intern <p style="color:#cc0000;font-weight:400;">@Pwrd By</p></p>
-          <p class="experience_job_description"><i class="fa fa-angle-double-right" style="color:#cc0000;font-size:20px;"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+        <div id="experience_content" class="experience-content-area w3-threequarter">
+          <div class="experience_job_container">
+            <img src="./images/ai4good_logo.jpg" class="experience_image" style="height:100px;"></img>
+            <p class="experience_job_title">ML Researcher/Web Developer <p style="color:#cc0000;font-weight:400;">@AI for good</p></p>
+            <p class="experience_job_description"><i class="fa fa-angle-double-right" style="color:#cc0000;font-size:20px;"></i> Lead a project on creating data analytical models to identify food insecure zip codes in Cleveland, Ohio</p>
+            <p class="experience_job_description"><i class="fa fa-angle-double-right" style="color:#cc0000;font-size:20px;"></i> Researched and presented technological recommendations to Kelowna, BC, Canada and Longbeach, California, US</p>
+            <p class="experience_job_description"><i class="fa fa-angle-double-right" style="color:#cc0000;font-size:20px;"></i> Wrote reports on Agricultural and Economic AI recommendations</p>
+          </div>
         </div>
       </div>
     </div>
 
     <div class="projects_contianer">
-      <p class="projects_title"><i class="	fa fa-square-o" style="color:#cc0000;font-size:50px;"></i> Projects<p style="font-size: 10;font-weight:thin;color:grey;">—————————</p></p>
+      <p class="projects_title"><i class="fa fa-square-o" style="color:#cc0000;font-size:50px;"></i> Projects</p>
       <div class="project_row">
 
         <div class="project_half project_description_container">
@@ -287,7 +279,7 @@
 
     <script src="./js/navigation_bar.js"></script>
     <script src="./js/ball_animation.js"></script>
-
+    <script src="./js/experience_js.js"></script>
   </body>
   <footer class="footer_container w3-center">
     <i class="fa fa-github professional_media_account_logos_footer"></i>
