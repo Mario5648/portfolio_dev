@@ -5,6 +5,7 @@
     margin-top: 300;
     margin-left: 200;
     margin-right:200;
+    height: 700px;
   }
   .experience_items_container
   {
@@ -38,7 +39,7 @@
   }
   .experience_job_description
   {
-    font-size: 15px;
+    font-size: 17px;
     color:grey;
   }
 
@@ -52,10 +53,10 @@
     color: black; /* White text */
     padding: 10px 24px; /* Some padding */
     cursor: pointer; /* Pointer/hand icon */
-    width: 250px; /* Set a width if needed */
+    width: 240px; /* Set a width if needed */
     display: block; /* Make the buttons appear below each other */
     text-align: left;
-    font-size: 16px;
+    font-size: 20px;
   }
 
   .btn-group button:not(:last-child) {
@@ -81,6 +82,8 @@
     margin-top: 300;
     margin-left: 50;
     margin-right:50;
+    height: 700px;
+
   }
   .experience_title
   {
@@ -94,7 +97,7 @@
   }
   .experience_job_container
   {
-    padding-left:30;
+    padding-left:100;
     padding-right:100;
     padding-top: 50;
   }
@@ -109,7 +112,7 @@
   }
   .experience_job_description
   {
-    font-size: 15px;
+    font-size: 17px;
     color:grey;
   }
 
@@ -123,10 +126,10 @@
     color: black; /* White text */
     padding: 10px 24px; /* Some padding */
     cursor: pointer; /* Pointer/hand icon */
-    width: 250px; /* Set a width if needed */
+    width: 240px; /* Set a width if needed */
     display: block; /* Make the buttons appear below each other */
     text-align: left;
-    font-size: 16px;
+    font-size: 20px;
   }
 
   .btn-group button:not(:last-child) {
@@ -151,6 +154,8 @@
     margin-top: 300;
     margin-left: 10;
     margin-right:10;
+    height: 1000px;
+
   }
   .experience_title
   {
@@ -179,7 +184,7 @@
   }
   .experience_job_description
   {
-    font-size: 15px;
+    font-size: 17px;
     color:grey;
   }
 
@@ -193,10 +198,10 @@
     color: black; /* White text */
     padding: 10px 24px; /* Some padding */
     cursor: pointer; /* Pointer/hand icon */
-    width: 250px; /* Set a width if needed */
+    width: 240px; /* Set a width if needed */
     display: block; /* Make the buttons appear below each other */
     text-align: left;
-    font-size: 16px;
+    font-size: 20px;
   }
 
   .btn-group button:not(:last-child) {

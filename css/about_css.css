@@ -2,8 +2,8 @@
   .about_container
   {
     margin-top:500;
-    margin-left: 200;
-    margin-right: 200;
+    margin-left: 150;
+    margin-right: 150;
   }
 
   .about_me_image
@@ -58,8 +58,8 @@
   .about_container
   {
     margin-top:500;
-    margin-left: 150;
-    margin-right: 150;
+    margin-left: 100;
+    margin-right: 100;
   }
 
   .about_me_image
@@ -80,7 +80,7 @@
 
   .about_me_text
   {
-    font-size: 20px;
+    font-size: 16px;
     padding-left: 40;
   }
 
@@ -134,7 +134,7 @@
 
   .about_me_text
   {
-    font-size: 20px;
+    font-size: 16px;
     padding-left: 10;
   }
 
