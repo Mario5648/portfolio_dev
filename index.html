@@ -26,24 +26,22 @@
     <div class="w3-top" style="z-index: 20;">
       <div class="w3-bar w3-white w3-card nav_elements_padding">
         <a class=" w3-right nav_hamburger nav_hamburger_show" href="javascript:void(0)" onclick="openNav()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-        <img src="./images/mario_portfolio_logo.png" class="w3-bar-item logo"></img>
+        <a href="#home"><img src="./images/mario_portfolio_logo.png" class="w3-bar-item logo"></img></a>
         <a href="#contact" class="w3-right nav_text remove_underline nav_text_vertical_align nav_resume_option nav_text_show">Resume</a>
         <a href="#contact" class="w3-right nav_text remove_underline nav_text_vertical_align nav_text_show">Contact</a>
-        <a href="#contact" class="w3-right nav_text remove_underline nav_text_vertical_align nav_text_show">Projects</a>
-        <a href="#contact" class="w3-right nav_text remove_underline nav_text_vertical_align nav_text_show">Experience</a>
-        <a href="#tour" class="w3-right nav_text remove_underline nav_text_vertical_align nav_text_show">Skills</a>
-        <a href="#band" class="w3-right nav_text remove_underline nav_text_vertical_align nav_text_show">About</a>
-        <a href="#" class="w3-right w3-hover nav_text remove_underline nav_text_vertical_align nav_text_show">Home</a>
+        <a href="#projects" class="w3-right nav_text remove_underline nav_text_vertical_align nav_text_show">Projects</a>
+        <a href="#experience" class="w3-right nav_text remove_underline nav_text_vertical_align nav_text_show">Experience</a>
+        <a href="#skills" class="w3-right nav_text remove_underline nav_text_vertical_align nav_text_show">Skills</a>
+        <a href="#about" class="w3-right nav_text remove_underline nav_text_vertical_align nav_text_show">About</a>
       </div>
     </div>
 
     <div id="mySidenav" class="sidenav" style="z-index: 20;">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-      <a href="#" class="" style="color:white">Home</a>
-      <a href="#band" class="" style="color:white">About</a>
-      <a href="#tour" class="" style="color:white">Skills</a>
-      <a href="#contact" class="" style="color:white">Experience</a>
-      <a href="#contact" class="" style="color:white">Projects</a>
+      <a href="#about" class="" style="color:white">About</a>
+      <a href="#skills" class="" style="color:white">Skills</a>
+      <a href="#experience" class="" style="color:white">Experience</a>
+      <a href="#projects" class="" style="color:white">Projects</a>
       <a href="#contact" class="" style="color:white">Contact</a>
       <a href="#contact" class="" style="color:#cc0000">Resume</a>
     </div>
@@ -51,6 +49,7 @@
 
 
     <!--hero section-->
+    <a id="home" style="display: block;position: relative;top: -500px;visibility: hidden;"></a>
     <div class="w3-container hero_container">
 
       <div class="w3-third hero_container_text">
@@ -78,6 +77,8 @@
       </div>
     </div>
 
+    <a id="about" class="anchor_aboutme"></a>
+
     <!--About me section-->
     <div class="w3-container about_container">
       <div class="w3-col m4">
@@ -92,6 +93,8 @@
 
       </div>
     </div>
+
+    <a id="skills" style="display: block;position: relative;top: 250px;visibility: hidden;"></a>
 
     <!--Skills section-->
     <!-- LAnguage Icone : https://devicon.dev/-->
@@ -168,8 +171,6 @@
             <center><img src="./images/swe_icon.png" alt="software engineering" class="skill_icon_image"></center>
             <div class="container_skills">
               <center><p class="skill_title">Software Engineering</p></center>
-              <hr>
-              <p class="skills_description_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
             </div>
           </div>
         </div>
@@ -178,8 +179,6 @@
             <center><img src="./images/webdev_icon.png" alt="web developer" class="skill_icon_image"></center>
             <div class="container_skills">
               <center><p class="skill_title">Web Development</p></center>
-              <hr>
-              <p class="skills_description_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
             </div>
           </div>
         </div>
@@ -188,8 +187,6 @@
             <center><img src="./images/ds_icon.png" alt="data science" class="skill_icon_image"></center>
             <div class="container_skills">
               <center><p class="skill_title">Data Science</p></center>
-              <hr>
-              <p class="skills_description_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
             </div>
           </div>
         </div>
@@ -197,7 +194,9 @@
     </div>
 
 
-    <div class="w3-container experience_container">
+    <a id="experience" style="display: block;position: relative;top: 150px;visibility: hidden;"></a>
+
+    <div  class="w3-container experience_container">
       <p class="experience_title"><i class="fa fa-square-o" style="color:#cc0000;font-size:50px;"></i> Experience</p>
       <div class="experience_items_container">
         <div class="btn-group w3-quarter">
@@ -217,6 +216,8 @@
         </div>
       </div>
     </div>
+
+    <a id="projects" style="display: block;position: relative;top: 150px;visibility: hidden;"></a>
 
     <div class="projects_contianer">
       <p class="projects_title"><i class="fa fa-square-o" style="color:#cc0000;font-size:50px;"></i> Projects</p>
@@ -281,7 +282,7 @@
     <script src="./js/ball_animation.js"></script>
     <script src="./js/experience_js.js"></script>
   </body>
-  <footer class="footer_container w3-center">
+  <footer id="contact" class="footer_container w3-center">
     <i class="fa fa-github professional_media_account_logos_footer"></i>
     <i class="fa fa-linkedin-square professional_media_account_logos_footer"></i><br>
     <a class="email_footer" href="mailto:mariodejesus5648@gmail.com">mariodejesus5648@gmail.com</a>
