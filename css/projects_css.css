@@ -65,6 +65,7 @@
     color: #cc0000;
     cursor: pointer;
     font-size: 20px;
+    text-decoration: none;
   }
 
   .project_buttons:hover
@@ -93,7 +94,7 @@
     }
     .projects_title
     {
-      font-size: 50px;
+      font-size: 40px;
       font-weight: bold;
     }
     .project_title
@@ -137,6 +138,7 @@
       color: #cc0000;
       cursor: pointer;
       font-size: 20px;
+      text-decoration: none;
     }
 
     .project_buttons:hover
