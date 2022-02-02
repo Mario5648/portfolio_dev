@@ -83,7 +83,7 @@
 @media only screen and (max-width: 1300px) {
     .projects_contianer
     {
-      margin-top: 400;
+      margin-top: 300;
       margin-left: 10;
       margin-right: 10;
       margin-bottom: 100;
@@ -150,5 +150,13 @@
     {
       width:50px;
     }
+  }
+}
+
+
+@media only screen and (max-width: 800px) {
+  .projects_contianer
+  {
+    margin-top: 3000;
   }
 }
