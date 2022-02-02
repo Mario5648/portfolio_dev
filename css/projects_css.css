@@ -152,11 +152,3 @@
     }
   }
 }
-
-
-@media only screen and (max-width: 800px) {
-  .projects_contianer
-  {
-    margin-top: 3000;
-  }
-}
